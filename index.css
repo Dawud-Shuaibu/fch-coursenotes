@@ -62,3 +62,37 @@ h4 {
     object-fit: cover;
 }
 
+#theme {
+    float: right;
+    background: var(--secondary-color);
+    display: flex;
+    width: 32px;
+    height: 30px;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme:hover {
+    background: green;
+}
+
+#theme svg {
+    fill: #000;
+}
+
+#theme svg:last-child {
+    display: none;
+}
+
+.darkmode #theme svg:first-child {
+    display: none;
+}
+
+.darkmode #theme svg:last-child {
+    display: block;
+}
