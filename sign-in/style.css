@@ -1,0 +1,206 @@
+:root {
+    --body-color: #fff;
+    --main-color: #fff;
+    --main-heading-and-span-color: green;
+    --input-color: #fff;
+    --text-color: #000;
+    --header-color: #fff;
+    --secondary-color: lightgreen;
+}
+
+.darkmode {
+    --body-color: hsl(0, 0%, 20%);
+    --main-color: hsl(0, 0%, 15%);
+    --main-heading-and-span-color: lightgreen;
+    --input-color: hsl(0, 0%,20%);
+    --text-color: #fff;
+    --header-color: hsl(0, 0%, 15%);
+    --secondary-color: lightgreen;
+    --caret-color: #fff;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+#top-menu-container {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+#top-menu {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 5px #000;
+    background-color: var(--header-color);
+}
+
+#logo-and-name-box {
+    display: flex;
+    width: fit-content;
+}
+
+#logo {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#college-name {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+    color: var(--text-color);
+}
+
+#signup-btn {
+    float: right;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    margin-right: 10px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+button#theme {
+    float: right;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+svg {
+    fill: #000;
+}
+
+button#theme svg:last-child {
+    display: none;
+}
+
+.darkmode button#theme svg:last-child {
+    display: block;
+}
+
+.darkmode button#theme svg:first-child {
+    display: none;
+}
+
+#main {
+    width: 350px;
+    height: 375px;
+    margin-top: 16vh;
+    padding-top: 30px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #000;
+    background-color: var(--main-color);
+}
+
+h2 {
+    color: var(--main-heading-and-span-color);
+    cursor: default;
+    text-align: center;
+}
+
+p {
+    font-size: 13px;
+    color: var(--main-heading-and-span-color);
+    cursor: default;    
+    text-align: center;
+}
+
+label[for = user-id], 
+label[for = password] {
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#user-id, #password {
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 10px;
+    inline-size: 10px;
+    width: 87%;
+    height: 40px;
+    box-shadow: 0 0 2px #000;
+    background-color: var(--input-color);
+    caret-color: var(--caret-color);
+    color: var(--text-color);
+    outline: none;
+    padding-left: 10px;
+}
+
+#forgot-password, 
+#new-account {
+    color: green;
+    margin-left: 25px;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+input[type = checkbox] {
+    margin-left: 27px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+label[for = student] {
+    font-size: 13.5px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#submit {
+    float: right;
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 2px #000;
+}
+
+footer {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
