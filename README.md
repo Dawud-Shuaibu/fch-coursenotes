@@ -24,4 +24,4 @@ This project is a web-based platform designed for our college to simplify the di
 This is an early-stage collaborative project. To contribute:
 You can clone th repo:
 
-git clone https://github.com/
+git clone https://github.com/Dawud-Shuaibu/fch-coursenotes
