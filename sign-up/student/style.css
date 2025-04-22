@@ -114,8 +114,8 @@ button#theme svg:last-child {
 
 #main {
     width: 800px;
-    height: 520px;
-    margin-top: 9vh;
+    height: 260px;
+    margin-top: 22vh;
     padding-top: 30px;
     justify-self: center;
     justify-content: center;
@@ -139,87 +139,6 @@ p {
     color: var(--main-heading-and-span-color);
     cursor: default;
     margin-bottom: 30px;
-}
-
-label[for = firstname] {
-    margin-left: 70px;
-}
-
-#firstname {
-    width: 270px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 73px;
-    padding-left: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #000;
-    background-color: var(--input-color);
-    caret-color: var(--caret-color);
-    color: var(--text-color);
-}
-
-label[for = lastname] {
-    float: right;
-    margin-top: -20px;
-    margin-right: 292px;
-}
-
-#lastname {
-    float: right;
-    width: 270px;
-    height: 40px;
-    margin-top: -42px;
-    margin-right: 73px;
-    padding-left: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #000;
-    background-color: var(--input-color);
-    caret-color: var(--caret-color);
-    color: var(--text-color);
-}
-
-label[for = dateofbirth] {
-    margin-left: 70px;
-}
-
-#dateofbirth {
-    width: 270px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 73px;
-    padding-left: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #000;
-    background-color: var(--input-color);
-    caret-color: var(--caret-color);
-    color: var(--text-color);
-}
-
-label[for = gender] {
-    float: right;
-    margin-top: -20px;
-    margin-right: 310px;
-}
-
-#gender {
-    float: right;
-    width: 283px;
-    height: 40px;
-    margin-top: 10px;
-    margin-right: 73px;
-    padding-left: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #000;
-    background-color: var(--input-color);
-    color: var(--text-color);
 }
 
 label[for = reg-no] {
@@ -260,45 +179,6 @@ label[for = email] {
     box-shadow: 0 0 2px #000;
     background-color: var(--input-color);
     caret-color: var(--caret-color);
-    color: var(--text-color);
-}
-
-label[for = departments] {
-    margin-left: 70px;
-}
-
-#departments {
-    width: 283px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 73px;
-    padding-left: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #000;
-    background-color: var(--input-color);
-    color: var(--text-color);
-}
-
-label[for = level] {
-    float: right;
-    margin-top: -20px;
-    margin-right: 322px;
-}
-
-#level {
-    float: right;
-    width: 283px;
-    height: 40px;
-    margin-top: -42px;
-    margin-right: 73px;
-    padding-left: 10px;
-    outline: none;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #000;
-    background-color: var(--input-color);
     color: var(--text-color);
 }
 
