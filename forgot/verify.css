@@ -170,18 +170,6 @@ label[for = code] {
     padding-left: 10px;
 }
 
-input[type = checkbox] {
-    margin-left: 27px;
-    margin-top: 6px;
-    cursor: pointer;
-}
-
-label[for = student] {
-    font-size: 13.5px;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 #new-account {
     color: green;
     margin-left: 25px;

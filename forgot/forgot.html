@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Notes | Forgot password</title>
     <link rel="icon" href="../images/fch-dk.jpg">
-    <link rel="stylesheet" href="style.css">
-    <title>Course Notes | Sign In to Continue</title>
+    <link rel="stylesheet" href="forgot.css">
 </head>
 
 <body>
-    
+
     <section id="top-menu-container">
         <header id="top-menu">
             <a href="../sign-up/" style="display: contents;"><button id="signup-btn" title="Sign Up">Sign Up</button></a>
@@ -28,30 +28,25 @@
     <div id="main">
         <form action="" method="post">
             <h2>FCH-DK - Course Notes</h2>
-            <p>Transforming Education, One Note at a Time!</p>
+            <p id="motto">Transforming Education, One Note at a Time!</p>
             <br><br>
-            <label for="user-id">Username or Email Address</label>
+            <p id="code-text">To change your account password, input the email address associated with the account.</p>
             <br>
-            <input type="text" id="user-id" name="user-id" placeholder="Username or Email">
-            <br><br>
-            <label for="password">Password</label>
+            <label for="email">Email Address</label>
             <br>
-            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="email" id="email" name="email" placeholder="e.g (someone@gmail.com)">
             <br>
             <input type="checkbox" name="student" value="student">
             <label for="student">Are you a student?</label>
             <br>
-            <a href="../forgot/forgot.html" id="forgot-password">Forgot Password</a>
-            <br>
             <a href="../sign-up/" id="new-account">Create new account</a>
-            <br><br>
-            <button type="submit" id="submit" name="submit">Login</button>
+            <br><br><br><br><br>
+            <button type="submit" id="submit" name="submit">Next</button>
         </form>
         <footer>&copy; Copyright 2025.</footer>
     </div>
 
     <script src="../darkmode.js"></script>
-    <script src="script.js"></script>
 
 </body>
 
